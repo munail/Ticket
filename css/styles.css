@@ -1,0 +1,249 @@
+/*Start of Basic Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    background-color: gold;
+}
+
+.intro-page {
+    background-image: url("../img/imag%202.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: bold;
+}
+
+.intro-page h1 {
+    color: aqua;
+    text-align: center;
+    padding-top: 150px;
+    -webkit-animation-delay: 1s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.intro-page h2 {
+    color: blueviolet;
+    text-align: center;
+    -webkit-animation-delay: 2s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+#brand {
+    height: 70px;
+    width: 70px;
+}
+
+.navbar-right {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*End of Intro-page*/
+
+
+/*Start of Registration*/
+
+#register {
+    width: 400px;
+    height: 190px;
+    margin-left: 300px;
+    margin-top: 160px;
+    border: 8px solid white;
+}
+
+#Tickets {
+    width: 400px;
+    height: 190px;
+    margin-top: 160px;
+    margin-left: 20px;
+    border: 8px solid white;
+}
+
+#logoText {
+    text-align: center;
+}
+
+#link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#link {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.registration {
+    background-image: url("../img/gallery/photo8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#paywith {
+    background-color: #650ef2;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.nav-tabs {
+    float: bottom;
+}
+
+.img-row {
+    background-color: #2b2d2f;
+}
+
+#row-back {
+    background-color: #650ef2;
+}
+
+#form-size {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.method {
+    margin-left: 130px;
+}
+
+.no-dots {
+    list-style-type: none;
+}
+
+#row {
+    margin-top: 40px;
+    padding: 0 10px;
+    background-color: silver;
+    width: auto;
+}
+
+.album {
+    width: 1400px;
+    height: 350px;
+}
+
+.album img {
+    height: 350px;
+    width: 350px;
+}
+
+.album h2 {
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.album p {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.album button {
+    margin-top: 30px;
+}
+
+
+/* End of Album*/
+
+
+/* Start of Gallery*/
+
+#photo1 {
+    height: 220px;
+    width: 280px;
+    position: relative;
+}
+
+#photo2 {
+    height: 220px;
+    width: 280px;
+    position: relative;
+}
+
+.count {
+    background-image: url("../img/redcrowd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.countdown {
+    text-align: center;
+    border: 5px solid white;
+    margin-top: 120px;
+    background-color: gray;
+}
+
+.info {
+    font-size: 70px;
+}
+
+table {
+    color: #fff;
+}
+
+
+/*End of Countdown*/
+
+
+/*Start of Subscribe*/
+
+Subscribe*/
+/*Start of Blog*/
+
+.blog h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog-row {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.blog .thumbnail {
+    background-color: #E6E6E6;
+}
+
+
+/*End of Blog*/
+
+#form-group {
+    align-content: center;
+}

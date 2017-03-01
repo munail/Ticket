@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/script.js"></script>
+
+<head>
+    <title>TICKET</title>
+</head>
+
+<body>
+    <!-- Start of .intro-page -->
+    <div class="intro-page">
+        <div class="navbar navbar-default">
+
+            <div class="navbar-brand">
+                <a href="#"><img id="brand" src="img/kunfup.jpeg"></a>
+            </div>
+            <!-- End of .navbar-brand -->
+            <a href="#fprm" class="navbar-right">TICKET</a>
+            <a href="#blog" class="navbar-right">PAYMENT</a>
+            <a href="#bio" class="navbar-right">INFORMATION</a>
+        </div>
+        <!-- End of .navbar -->
+        <h1 class="animated fadeInUp">THIS IS THE STORY OF DRAGON FIGHTER</h1>
+        <h2 class="animated fadeInUp">THE PANDA</h2>
+    </div>
+
+    <div class="col-md-4">
+        <form id="form-register">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" placeholder="eg. MUNAIR">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" placeholder="eg.18">
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="mobile" class="form-control" placeholder="+2547XXXXXXXX">
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" placeholder="eg. Munair@github.com">
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-4">
+        <form id="form-register">
+            <div class="form-group">
+                <label for="assebly">CHOOSE THEATRE</label>
+                <select class="form-control">
+                    <option>IMAX CBD</option>
+                    <option>IMAX TWO RIVER</option>
+                    <option>IMAX PRESTIGE</option>
+                    <option>IMAX GARDEN CITY</option>
+                    <option>IMAX PANGANI SHOPPING CENTRE</option>
+                    <option>MAFURUJI</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="team">PREFEERED VIEW</label>
+                <select class="form-control">
+                    <option>3D</option>
+                    <option>7D</option>
+                    <option>2D</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-default btn-lg">Sumbit</button>
+        </form>
+    </div>
+    <!--End of #register -->
+
+    <!--start of a count down-->
+    <div class="count">
+        <div class="row">
+
+            <table class="col-md-offset-2 col-md-8 countdown">
+                <tr class="info">
+                    <td colspan="4">Hurry!! NO TO TIME LEFT</td>
+                </tr>
+                <tr class="info">
+                    <td id="days">3</td>
+                    <td id="hours">7</td>
+                    <td id="minutes">10</td>
+                    <td id="seconds">30</td>
+                </tr>
+                <tr>
+                    <td>DAYS</td>
+                    <td>HOURS</td>
+                    <td>MINUTES</td>
+                    <td>SECONDS</td>
+
+                </tr>
+            </table>
+        </div>
+        <!--end of countdown-->
+
+        <div class="row" id="buy">
+            <div class="col-md-4" id="ticketprice">
+                <h1>Early Bird</h1>
+                <h1>Kshs. 500</h1>
+            </div>
+            <div class="row" id="buy">
+                <div class="col-md-4" id="ticketprice">
+                    <h1>LATE Bird</h1>
+                    <h1>KSH.1000</h1>
+                </div>
+                <div class="col-md-8" float="centre">
+                    <form id="form-buy">
+                        <div class="form-group">
+                            <label for="numberOfTickets">Number of Tickets</label>
+                            <input id="numberOfTickets" type="number" class="form-control" min="0">
+                        </div>
+                        <p>Choose payment option: </p>
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="img/m-pesa.png">
+                        </label>
+
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="img/equitel.png" width="40px" height="40px">
+                        </label>
+
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="img/PesaPal_s.png">
+                        </label>
+
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="img/KCBMOBILE.png">
+                        </label>
+
+                        <button id="btn" type="submit" class="btn btn-default btn-lg">Buy Ticket(s)</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="container" id="box">
+                <h2 class="unsubscribed">Subscribe to Our Newsletter</h2>
+                <h3 class="subscribed"></h3>
+                <form id="subscribe" class="form-inline unsubscribed">
+
+                    <div class="form-group">
+                        <label class="sr-only" for="Name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+
+                        <label class="sr-only" for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <button id="sub-btn" class="btn btn-default">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
